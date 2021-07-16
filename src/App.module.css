@@ -1,0 +1,26 @@
+
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    height:100vh;
+    background:url(./images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+   display:flex;
+   align-items:center;
+   flex-direction:column;
+   justify-content:center;
+    min-width: 50vw;
+    max-width: 60vw;
+    /* min-height: 70vh; */
+    padding: 20px;
+    background:rgba(233, 232, 232, 0.603);
+    border-radius:20px;
+}
